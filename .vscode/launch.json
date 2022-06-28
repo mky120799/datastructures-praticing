@@ -2,12 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C/C++ Runner: Debug Session",
+            "name": "drunken  Runner: Debug Session",
             "type": "cppdbg",
             "request": "launch",
             "args": [],
             "stopAtEntry": false,
-            "externalConsole": false,
+            "externalConsole": true,
             "cwd": "c:/Users/Mithilesh/Desktop/datastructures and algorithms/module 7 array ADT",
             "program": "c:/Users/Mithilesh/Desktop/datastructures and algorithms/module 7 array ADT/build/Debug/outDebug",
             "MIMode": "gdb",
