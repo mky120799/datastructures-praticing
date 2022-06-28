@@ -28,12 +28,15 @@ void insert (struct Array *arr1,int index,int x)
     if(index >=0&& index <=arr1->length )
     { 
         for(i=arr1->length ;i>index;i--)
+        /*agr hm yha pr agr hm i= arr.length-1 kr denge to problem ye ho jayegi kee
+        A[i] kee jo index hai ek km set hogi jiske karn jb hm elements ko shift 
+        krenge to shift krne kee jagah nhi milegi thoda thnde deimag se socho*/
         arr1->A[i]=arr1->A[i-1];
         arr1->A[index]=x;
         arr1->length++;
     }
      
-    }s
+    }
 
 int main()
 {
